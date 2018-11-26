@@ -14,13 +14,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: "localhost:8080",
+        baseUrl: "wordpress-gatsby.atwebpages.com",
         protocol: "http",
         hostingWPCOM: false,
         useACF: true,
         verboseOutput: true
       }
-    }
+    },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
