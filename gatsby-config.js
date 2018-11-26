@@ -11,6 +11,16 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: 'gatsby-source-wordpress',
+      options: {
+        baseUrl: "localhost:8080",
+        protocol: "http",
+        hostingWPCOM: false,
+        useACF: true,
+        verboseOutput: true
+      }
+    }
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
